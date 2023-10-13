@@ -1,0 +1,73 @@
+/* tipografia */
+
+/* selector universal*/
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+ 
+
+/*selector por id*/
+#BIENVENIDO{
+    margin: 20px;
+    margin-bottom: 0;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(12, 12, 12);
+    font-weight: 1100;
+    text-transform: uppercase;
+    text-align: center;
+}
+#login{
+    color: rgb(0, 0, 0);
+    text-align: right;
+    text-align: end;
+    margin-right: 20px;
+}
+
+#img1{
+
+    display: inline-flex; 
+ justify-content: space-around  ;
+ 
+  
+}
+#torneosdiv{
+ display: inline-flex;
+ justify-content: space-around;
+ 
+ 
+}
+
+
+#RANKING{
+    margin-left: 200px;
+    margin-top: 200px;
+    display: inline-flex;
+}
+
+.table{
+    table-layout: fixed;
+    border-collapse: collapse;
+    border: 3px solid black;
+    color: aliceblue;
+    text-align: center;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 255, 0.322);
+    background-imag: url(https://img.lalr.co/cms/2021/07/02123728/rugby-sud%C3%A1frica.jpg?size=xl);
+    background-size: 290px;
+
+}
+
+tr{
+    border: 2px solid rgb(255, 255, 255);
+}
+
+td{
+    border: 2px solid white;
+}
+th{
+    color: black;
+}
