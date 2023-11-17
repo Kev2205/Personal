@@ -6,7 +6,9 @@
     padding: 0;
     
 }
- 
+ body{
+    background-color: black;
+ }
 
 /*selector por id*/
 #BIENVENIDO{
@@ -26,31 +28,42 @@
     margin-right: 20px;
 }
 
-#img1{
+.img1{
 
-    display: inline-flex; 
+    display: flex; 
  justify-content: space-around  ;
  
   
 }
-#torneosdiv{
- display: inline-flex;
+
+
+
+.torneos{
+ display: flex;
  justify-content: space-around;
  
  
 }
+.world_rugby{
+    align-items: center;
+}
 
+.iframe{
+    display: flex;
+   justify-items: center;
+}
 
 #RANKING{
     margin-left: 200px;
     margin-top: 200px;
     display: inline-flex;
+    
 }
 
 .table{
     table-layout: fixed;
     border-collapse: collapse;
-    border: 3px solid black;
+    border: 3px solid #fff;
     color: aliceblue;
     text-align: center;
     margin-left: 50px;
