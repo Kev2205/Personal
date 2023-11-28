@@ -7,7 +7,7 @@
     
 }
  body{
-    background-color: black;
+    background-color: rgb(102, 91, 91);
  }
 
 /*selector por id*/
@@ -22,7 +22,7 @@
     text-align: center;
 }
 #login{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-align: right;
     text-align: end;
     margin-right: 20px;
@@ -36,25 +36,45 @@
   
 }
 
+#TORNEOS{
+    margin-top: 100px;
+    margin-left: 600px;
+    color: #fff;
 
+}
 
 .torneos{
+    margin-top: 50px;
  display: flex;
  justify-content: space-around;
  
  
 }
 .world_rugby{
+    display: flex;
     align-items: center;
+    justify-items: center;
+    color: aliceblue;
+    margin-top: 100px;
+    margin-left: 600px;
 }
-
+#REGLAS{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    color: aliceblue;
+    margin-top: 100px;
+    margin-left: 600px;
+}
 .iframe{
     display: flex;
    justify-items: center;
+   margin-top: 10px;
+   margin-left: 400px;
 }
 
 #RANKING{
-    margin-left: 200px;
+    margin-left: 400px;
     margin-top: 200px;
     display: inline-flex;
     
@@ -69,7 +89,7 @@
     margin-left: 50px;
     margin-bottom: 20px;
     background-color: rgba(0, 0, 255, 0.322);
-    background-imag: url(https://img.lalr.co/cms/2021/07/02123728/rugby-sud%C3%A1frica.jpg?size=xl);
+    background-image: url(https://img.lalr.co/cms/2021/07/02123728/rugby-sud%C3%A1frica.jpg?size=xl), linear-gradient(180deg, #0000008c 0%, #0000008c 100%) ;
     background-size: 290px;
 
 }
